@@ -1,0 +1,113 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header .logo {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: var(--vermelho);
+    font-family: 'BebasNeue-Regular.ttf', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+header .navMenu {
+    margin-left: 37%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header .navMenu a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-family: 'BebasNeue-Regular.ttf', sans-serif;
+    font-size: 20px;
+}
+
+.navMenu a:hover {
+    color: #fff;
+}
+
+.conteiner {
+    margin-left: 20px;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('./img/capa-rm.jpg');
+    height: 400px;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-rm {
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    margin-top: 15%;
+}
+
+.filme-principal .sinopse-rm {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 10px;
+}
+
+.filme-principal .conteiner {
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.box.filme {
+    height: 100%;
+    width: 100%;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
